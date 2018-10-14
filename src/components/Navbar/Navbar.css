@@ -1,0 +1,19 @@
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background: #2196F3;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-button {
+    color: black;
+    height: 50px;
+    padding: 10px;
+    margin: 20px;
+    background: #BBDEFB;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
