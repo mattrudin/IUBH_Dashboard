@@ -1,0 +1,22 @@
+.machine {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.machine-ok {
+    background: #66BB6A;
+}
+
+.machine-na {
+    background: #BDBDBD;
+
+}
+
+.machine-critical {
+    color: white;
+    background: #EF5350;
+}
