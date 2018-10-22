@@ -1,13 +1,23 @@
 import React from 'react';
-import './Navbar.css';
+import { slide as Menu } from 'react-burger-menu'
+import './Menu.css';
 
-function Navbar() {
-  return (
-    <header className="row">
-      <h1 className="navbar-button">Echtzeitansicht</h1>
-      <h1 className="navbar-button">Analyseansicht</h1>
-    </header>
-  );
+class Navbar extends React.Component {
+  
+  showSettings (event) {
+    event.preventDefault();
+  }
+
+  render () {
+    return (
+      <Menu /* styles={ styles } */>
+        <h1 ><i id='wheel' class="material-icons">clear</i></h1>
+        <h1>RotorWind GmbH</h1>
+        <em>"Uns bewegt nicht nur der Wind"</em>
+        <a id="echtzeit" className="menu-item" href="/"><i class="material-icons">update</i> Echtzeitansicht</a>
+        <a id="analyse" className="menu-item" href="/analyse"><i class="material-icons">timeline</i> Analyseansicht</a>
+      </Menu>
+    );
+  }
 }
-
 export default Navbar;
