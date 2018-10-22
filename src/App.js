@@ -11,7 +11,6 @@ class App extends Component {
         <Navbar />
         <div className="main-view">
           <RealtimeView />
-          <AnalysisView />
         </div>
       </div>
     );

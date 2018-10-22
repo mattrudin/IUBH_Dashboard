@@ -10,7 +10,7 @@ function RealtimeViewMachine(props) {
         : 'machine-critical';
   return (
     <div className={`machine ${status}`}>
-      <h1>{props.title}</h1>
+      <p className={'title'} >{props.title}</p>
       <p>Typ: {props.type}</p>
       <p>Status: {props.status}</p>
     </div>
