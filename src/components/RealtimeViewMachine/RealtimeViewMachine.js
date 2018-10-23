@@ -9,11 +9,11 @@ function RealtimeViewMachine(props) {
         ? 'machine-na'
         : 'machine-critical';
   return (
-    <div className={`machine ${status}`}>
-      <p className={'title'} >{props.title}</p>
-      <p>Typ: {props.type}</p>
-      <p>Status: {props.status}</p>
-    </div>
+      <a href='/' className={`machine ${status}`}>
+        <p className={'title'} >{props.title}</p>
+        <p>Typ: {props.type}</p>
+        <p>Status: {props.status}</p>
+      </a>
   );
 }
 
