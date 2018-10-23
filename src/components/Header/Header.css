@@ -6,6 +6,9 @@
 
 #header-title {
     color: black;
+    font-family: 'Breezed';
+    font-size: 60px;
+    padding-left: 50px;
 }
 
 #image {

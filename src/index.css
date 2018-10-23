@@ -12,3 +12,8 @@ code {
   font-family: Roboto, source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: "Breezed";
+  src: url("./font/BREECBO_.TTF");
+}

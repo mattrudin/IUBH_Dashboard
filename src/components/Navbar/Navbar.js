@@ -10,9 +10,9 @@ class Navbar extends React.Component {
 
   render () {
     return (
-      <Menu /* styles={ styles } */>
+      <Menu>
         <h1 ><i id='wheel' class="material-icons">clear</i></h1>
-        <h1>RotorWind GmbH</h1>
+        <h1 id='title-wind'>RotorWind GmbH</h1>
         <em>"Uns bewegt nicht nur der Wind"</em>
         <a id="echtzeit" className="menu-item" href="/"><i class="material-icons">update</i> Echtzeitansicht</a>
         <a id="analyse" className="menu-item" href="/analyse"><i class="material-icons">timeline</i> Analyseansicht</a>
