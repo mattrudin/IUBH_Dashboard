@@ -1,5 +1,5 @@
 import React from 'react';
-import './RealtimeViewMachine.css';
+//import './RealtimeViewMachine.css';
 
 function RealtimeViewMachine(props) {
   const status =

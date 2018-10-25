@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './RealtimeView.css';
+//import './RealtimeView.css';
 import RealtimeViewMachine from '../RealtimeViewMachine/RealtimeViewMachine';
 import { machinesArray } from './machines';
 
