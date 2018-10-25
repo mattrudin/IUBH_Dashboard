@@ -10,45 +10,33 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Head />
-        <Navbar />
+        <Head title="Home"/>
+        <Navbar className="navbar"/>
         <div className="main-view">
           <Header />
           <RealtimeView />
         </div>
-        <style jsx>{`.App {
-  text-align: center;
-}
+        <style jsx global>{` 
+          .App {
+            display:flex;
+            text-align: center;
+            font-family: Roboto;
+          }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
+          .navbar {
+            min-width: 300px;
+            position: fixed;
+            height: 100%;
+          }
+          body {
+            margin: 0;
+          }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-`}</style>
+          @font-face {
+            font-family: "Breezed";
+            src: url("../font/BREECBO_.TTF") format("truetype");
+          }
+        `}</style>
       </div>
     );
   }

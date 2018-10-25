@@ -21,6 +21,14 @@ const Head = props => (
     <link rel="icon" href="/static/favicon.ico" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <style>
+    {`
+      @font-face {
+        font-family: 'Breezed';
+        src: url('../../font/BREECBO_.TTF');
+      }
+    `}
+    </style>
     <meta property="og:url" content={props.url || defaultOGURL} />
     <meta property="og:title" content={props.title || ''} />
     <meta

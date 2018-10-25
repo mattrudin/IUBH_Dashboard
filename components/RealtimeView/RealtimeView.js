@@ -10,17 +10,17 @@ class RealtimeView extends Component {
     ));
     return <div className="machine-view">
         {machines}
-        <style jsx>{`.machine-view {
-        font-family: 'Roboto';
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        padding: 25px;
-        padding-left: 100px;
-        background: #eeeeee;
-      }`}
-      </style>
+        <style jsx>{`
+          .machine-view {
+            font-family: 'Roboto';
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            background: #eeeeee;
+            margin-left: 300px;
+      }
+      `}</style>
     </div>;
   }
 }
