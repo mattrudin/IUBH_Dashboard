@@ -31,11 +31,6 @@ class App extends Component {
           body {
             margin: 0;
           }
-
-          @font-face {
-            font-family: "Breezed";
-            src: url("../font/BREECBO_.TTF") format("truetype");
-          }
         `}</style>
       </div>
     );

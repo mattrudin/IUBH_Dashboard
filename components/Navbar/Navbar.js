@@ -29,7 +29,8 @@ const Navbar = () => (
             }
 
             #title-wind {
-                font-family: 'Breezed';
+                font-family: 'Audiowide';
+                font-size: 40px;
             }
 
             .menu-item {
