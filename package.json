@@ -1,26 +1,13 @@
 {
-  "name": "iubh_dashboard",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.5.2",
-    "react-burger-menu": "^2.5.4",
-    "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5"
-  },
+  "name": "create-next-example-app",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "dependencies": {
+    "next": "7.0.2",
+    "react": "16.6.0",
+    "react-dom": "16.6.0"
+  }
 }
