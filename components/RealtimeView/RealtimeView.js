@@ -4,11 +4,13 @@ import { machinesArray } from './machines';
 import Link from 'next/link'
 
 const machines = machinesArray.map((machine, index) => (
-    <Link href="/Machine" >
-      <a className="machine">
-        <RealtimeViewMachine title={`Maschine ${index + 1}`} type={machine[0]} status={machine[1]} />
-      </a>
-    </Link>
+    <div>
+      <Link href="/Machine" >
+        <a className="machine">
+          <RealtimeViewMachine title={`Maschine ${index + 1}`} type={machine[0]} status={machine[1]} />
+        </a>
+      </Link>
+    </div>
 ));
 
 const RealtimeView = () => (
