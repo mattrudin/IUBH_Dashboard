@@ -24,6 +24,14 @@ const Analyse = () => (
           position: fixed;
           height: 100%;
         }
+
+        .main-view {
+            width: 100%;
+            background: #eeeeee;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         body {
           margin: 0;
         }
