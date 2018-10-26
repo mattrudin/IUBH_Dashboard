@@ -6,12 +6,14 @@ const Navbar = () => (
         <h1 ><i id='wheel' className="material-icons">clear</i></h1>
         <h1 id='title-wind'>RotorWind GmbH</h1>
         <em>"Uns bewegt nicht nur der Wind"</em>
-        <a id="echtzeit" className="menu-item" href="/"><i class="material-icons">update</i> Echtzeitansicht</a>
-        <a id="analyse" className="menu-item" href="/analyse"><i class="material-icons">timeline</i> Analyseansicht</a>
+        <a id="echtzeit" className="menu-item" href="/"><i className="material-icons">update</i> Echtzeitansicht</a>
+        <a id="analyse" className="menu-item" href="/analyse"><i className="material-icons">timeline</i> Analyseansicht</a>
         <style jsx>{`
             .navbar {
-                background: #373a47;
                 width: 300px;
+                background: linear-gradient(rgba(0,0,0, .6), rgba(0,0,0,.6)), url("/static/windmill.jpg");
+                background-position: center; 
+                /* background: #373a47; */
                 justify-text: center;
                 display: flex;
                 flex-direction: column;
