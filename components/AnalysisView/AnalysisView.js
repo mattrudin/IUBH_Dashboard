@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './AnalysisView.css';
 
 class AnalysisView extends Component {
   render() {
