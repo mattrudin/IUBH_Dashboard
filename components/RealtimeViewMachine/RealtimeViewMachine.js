@@ -1,7 +1,6 @@
 import React from 'react';
-//import './RealtimeViewMachine.css';
 
-function RealtimeViewMachine(props) {
+const RealtimeViewMachine = (props) => {
   const status =
     props.status === 'OK'
       ? 'machine-ok'

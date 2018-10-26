@@ -27,6 +27,10 @@ const App = () => (
       body {
         margin: 0;
       }
+
+      a:link {
+        text-decoration: none;
+      }
     `}</style>
   </div>
 ) 

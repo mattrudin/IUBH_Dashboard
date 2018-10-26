@@ -1,9 +1,14 @@
 import React from 'react';
 import RealtimeViewMachine from '../RealtimeViewMachine/RealtimeViewMachine';
 import { machinesArray } from './machines';
+import Link from 'next/link'
 
 const machines = machinesArray.map((machine, index) => (
-  <RealtimeViewMachine title={`Maschine ${index + 1}`} type={machine[0]} status={machine[1]} />
+    <Link href="/Machine" >
+      <a className="machine">
+        <RealtimeViewMachine title={`Maschine ${index + 1}`} type={machine[0]} status={machine[1]} />
+      </a>
+    </Link>
 ));
 
 const RealtimeView = () => (
@@ -18,7 +23,7 @@ const RealtimeView = () => (
           align-items: flex-start;
           background: #eeeeee;
           margin-left: 300px;
-    }
+        }
     `}</style>
   </div>
 ) 

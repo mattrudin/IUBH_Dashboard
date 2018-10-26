@@ -1,4 +1,3 @@
-import Head from '../head/head'
 import Link from 'next/link'
 
 const Navbar = () => (
