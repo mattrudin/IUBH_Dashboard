@@ -5,10 +5,12 @@ const AnalysisView = () => (
     <div className="view time-cost">
       <h1>Wartung</h1>
       <p>Zeit / Kosten</p>
+      <img src="/static/zeit_kosten.png" width="600px"/>
     </div>
     <div className="view time-temperature">
       <h1>Wartung</h1>
       <p>Zeit / Temperatur</p>
+      <img src="/static/zeit_temperatur.png" width="600px"/>
     </div>
     <style jsx>{`
         .analysis-view {
@@ -25,6 +27,7 @@ const AnalysisView = () => (
           height: 500px;
           display: flex;
           flex-direction: column;
+          align-items: center;
           transition: 0.3s;
           margin: 10px;
           color: white;
