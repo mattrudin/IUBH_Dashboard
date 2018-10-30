@@ -17,7 +17,8 @@ const Machine = (props) => {
         .App {
           display:flex;
           text-align: center;
-          font-family: Roboto;
+            background: #eeeeee;
+            font-family: Roboto;
         }
 
         .navbar {
@@ -32,6 +33,7 @@ const Machine = (props) => {
             display: flex;
             flex-direction: column;
             align-items: center;
+            height: 100vh;
         }
         body {
           margin: 0;
