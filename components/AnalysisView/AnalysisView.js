@@ -35,11 +35,11 @@ const AnalysisView = () => (
         }
 
         .time-cost {
-          background: linear-gradient(90deg, rgba(58,129,219,1) 0%, rgba(54,113,188,1) 48%, rgba(43,92,155,1) 100%);
+          background: #4472c4;
         }
 
         .time-temperature {
-          background: linear-gradient(90deg, rgba(64,184,226,1) 0%, rgba(57,163,200,1) 48%, rgba(43,126,155,1) 100%);
+          background: #4472c4;
         }
     `}</style>
   </div>

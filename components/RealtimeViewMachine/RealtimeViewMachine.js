@@ -45,8 +45,8 @@ const RealtimeViewMachine = (props) => {
       }
       
       .machine-ok {
-          background: rgb(50, 179, 63);
-          background: linear-gradient(90deg, rgba(50, 179, 63, 1) 0%, rgba(46, 153, 52, 1) 48%, rgba(40, 135, 44, 1) 100%);
+          background: #70ad47;
+          color: white;
       }
       
       .machine-na {
@@ -57,8 +57,7 @@ const RealtimeViewMachine = (props) => {
       
       .machine-critical {
           color: white;
-          background: rgb(217, 40, 40);
-          background: linear-gradient(90deg, rgba(217, 40, 40, 1) 0%, rgba(203, 54, 54, 1) 48%, rgba(156, 36, 36, 1) 100%);
+          background: #ed7d31;
       }
         `}
         </style>
