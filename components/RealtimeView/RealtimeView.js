@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const machines = machinesArray.map((machine, index) => (
     <div>
-      <Link href="/Machine" >
+      <Link href={machine[1] === 'Wartung' ? `/` : `/Machine.${index}`} >
         <a className="machine">
           <RealtimeViewMachine title={`Maschine ${index + 1}`} type={machine[0]} status={machine[1]} />
         </a>
@@ -20,9 +20,8 @@ const RealtimeView = () => (
         .machine-view {
           font-family: 'Roboto';
           display: flex;
-          justify-content: space-around;
           flex-wrap: wrap;
-          align-items: flex-start;
+          align-items: center;
           background: #eeeeee;
           margin-left: 300px;
         }

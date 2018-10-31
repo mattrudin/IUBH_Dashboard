@@ -4,7 +4,7 @@ const RealtimeViewMachine = (props) => {
   const status =
     props.status === 'OK'
       ? 'machine-ok'
-      : props.status === 'NA'
+      : props.status === 'Wartung'
         ? 'machine-na'
         : 'machine-critical';
   return (
@@ -51,7 +51,6 @@ const RealtimeViewMachine = (props) => {
       
       .machine-na {
           background: rgb(213, 213, 213);
-          background: linear-gradient(90deg, rgba(213, 213, 213, 1) 0%, rgba(194, 192, 192, 1) 48%, rgba(161, 161, 161, 1) 100%);
       
       }
       
