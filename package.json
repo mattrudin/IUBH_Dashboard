@@ -1,14 +1,17 @@
 {
-  "name": "create-next-example-app",
+  "name": "IUBH Dashboard",
+  "homepage": "https://github.com/mattrudin/IUBH_Dashboard",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "next": "7.0.2",
     "react": "16.6.0",
-    "react-burger-menu": "^2.5.4",
     "react-dom": "16.6.0"
   }
 }
