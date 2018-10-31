@@ -1,4 +1,5 @@
 module.exports = {
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/IUBH_Dashboard' : '',
   webpack: config => {
     // Fixes npm packages that depend on `fs` module
     config.node = {
