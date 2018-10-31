@@ -1,11 +1,12 @@
 module.exports = {
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/IUBH_Dashboard' : '',
-  webpack: config => {
-    // Fixes npm packages that depend on `fs` module
-    config.node = {
-      fs: 'empty'
+  exportPathMap: async function (defaultPathMap) {
+    return {
+      '/': { page: '/' },
+      '/analyse': { page: '/analyse' },
+      '/quellen': { page: '/quellen' },
+      '/Machine.0': { page: '/Machine.0' },
+      '/Machine.1': { page: '/Machine.1' },
+      '/Machine.3': { page: '/Machine.3' },
     }
-
-    return config
   }
 }

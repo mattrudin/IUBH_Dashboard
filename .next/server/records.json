@@ -84,19 +84,28 @@
       "static\\kaQZZfzW6tcAVeYyPpRKA\\pages\\quellen.js": 14,
       "static\\kaQZZfzW6tcAVeYyPpRKA\\pages\\_app.js": 15,
       "static\\kaQZZfzW6tcAVeYyPpRKA\\pages\\_error.js": 16,
-      "static\\kaQZZfzW6tcAVeYyPpRKA\\pages\\_document.js": 17
+      "static\\kaQZZfzW6tcAVeYyPpRKA\\pages\\_document.js": 17,
+      "static\\7h6Hn7OcsZLMcxVs8s7TT\\pages\\analyse.js": 0,
+      "static\\7h6Hn7OcsZLMcxVs8s7TT\\pages\\index.js": 1,
+      "static\\7h6Hn7OcsZLMcxVs8s7TT\\pages\\Machine.0.js": 2,
+      "static\\7h6Hn7OcsZLMcxVs8s7TT\\pages\\Machine.1.js": 3,
+      "static\\7h6Hn7OcsZLMcxVs8s7TT\\pages\\Machine.3.js": 4,
+      "static\\7h6Hn7OcsZLMcxVs8s7TT\\pages\\quellen.js": 5,
+      "static\\7h6Hn7OcsZLMcxVs8s7TT\\pages\\_app.js": 6,
+      "static\\7h6Hn7OcsZLMcxVs8s7TT\\pages\\_error.js": 7,
+      "static\\7h6Hn7OcsZLMcxVs8s7TT\\pages\\_document.js": 8
     },
     "bySource": {},
     "usedIds": [
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      9
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
     ]
   }
 }

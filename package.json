@@ -4,7 +4,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "predeploy": "npm run build",
+    "export": "next export"
   },
   "dependencies": {
     "next": "7.0.2",
