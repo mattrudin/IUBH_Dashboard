@@ -2,7 +2,7 @@ import MachineViewSensor from '../MachineViewSensor/MachineViewSensor'
 
 const MachineView = (props) => (
     <div className="main-view">
-        <h1 className="machine-title">Maschine</h1>
+        <h1 className="machine-title">Maschine {props.machineNo}</h1>
         <div className="machine-view">
             <MachineViewSensor title="1" picture={props.picture1}/>
             <MachineViewSensor title="2" picture={props.picture2}/>

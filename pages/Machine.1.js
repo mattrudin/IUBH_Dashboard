@@ -12,6 +12,7 @@ const Machine = () => {
             <div className="main-view">
                 <Header />
                 <MachineView 
+                    machineNo="2"
                     picture1="okay_1"
                     picture2="okay_2"
                     picture3="okay_3"/>
