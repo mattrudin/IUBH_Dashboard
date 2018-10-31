@@ -11,6 +11,9 @@ const Navbar = () => (
         <Link href="/analyse">
             <a id="analyse" className="menu-item" ><i className="material-icons">timeline</i> Analyseansicht</a>
         </Link>
+        <Link href="/quellen">
+            <a id="quellen" className="menu-item" ><i className="material-icons">language</i> Quellen</a>
+        </Link>
         <style jsx>{`
             .navbar {
                 width: 300px;

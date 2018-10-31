@@ -31,6 +31,14 @@ const App = () => (
       a:link {
         text-decoration: none;
       }
+      .main-view {
+        width: 100%;
+        background: #eeeeee;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+      }
     `}</style>
   </div>
 ) 

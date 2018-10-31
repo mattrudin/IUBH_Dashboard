@@ -4,14 +4,18 @@ import Header from '../components/Header/Header'
 import Head from '../components/head/head'
 import MachineView from '../components/MachineView/MachineView'
 
-const Machine = (props) => {
+const Machine = () => {
     return(
         <div className="App">
-            <Head title={`Maschine ${props.title}`}/>
+            <Head title={`Maschine`}/>
             <Navbar className="navbar"/>
             <div className="main-view">
                 <Header />
-                <MachineView />
+                <MachineView 
+                    machineNo="2"
+                    picture1="okay_1"
+                    picture2="okay_2"
+                    picture3="okay_3"/>
             </div>
             <style jsx global>{` 
         .App {
